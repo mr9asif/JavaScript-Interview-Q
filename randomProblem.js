@@ -83,3 +83,24 @@
 // **Note:** NaN is falsy that’s why  it not run
 
 
+// `function add(a,b){
+// if(b){
+// return a+b;
+// }else{
+// return function(b){
+// return a+b;
+// }
+// }
+// }`
+
+// `const res1 = add(1,3);
+// const res2 = add(2,3);
+// console.log(add(res1, res2));`
+
+// **Note:** so it’s a curry function basically..we can also do that different way.
+
+// `const arr = [2,3,4];
+// const newArr= arr.map(e=> e > 3);
+// console.log(newArr)  // [false, false, true]`
+
+// Note: here we will get bolean value not the value we have becasue here we check condition.
