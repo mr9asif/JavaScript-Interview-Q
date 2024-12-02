@@ -42,3 +42,44 @@
 
 // 2nd:here false because when we use new keyword then it return object so the dataType are now different.
 
+// --------
+// console.log(Array(1,2)); // [1,2]
+// console.log(Array(1)); // [<1 empty item>]`
+
+// console.log(Array("asif")); // [”asif”]`
+
+// console.log(Array(1).length) // 1`
+
+// **Note:** so here it create a Constructior of Array. that get argument so if it more than 1 argument then create a array but if it only one number argument then it return length of the array mean empty. but length is 1; but if give one argument as a string then it will work properly.
+
+// ----
+// `console.log(NaN == NaN) // false`
+
+// **Note:** JavaScript follows the IEEE 754 standard for floating-point arithmetic.
+
+// - According to this standard, `NaN` is not equal to anything, even itself.
+
+
+
+    // ==========
+    
+// console.log(Number.isNaN('Hello')); // false
+// console.log(Number.isNaN(undefined)); // false
+// console.log(Number.isNaN(NaN)); // true`
+
+// **Note:**The `Object.is()` method checks if two values are the same value. Unlike `==` or `===`, it treats `NaN` as equal to itself.
+
+// ------------------
+
+// if (NaN) {
+// console.log("This will not run");
+// } else {
+// console.log("NaN is falsy");
+// }
+// Output: NaN is falsy`
+
+// console.log(Boolean(NaN)); // false`
+
+// **Note:** NaN is falsy that’s why  it not run
+
+
