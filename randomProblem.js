@@ -115,3 +115,20 @@
 // Note: object only get the latest property if the property is same
 
 // console.log(!"hey") // false
+
+// -------
+// for (var i = 0; i < 6; i++) {
+//     setTimeout(() => {
+//       console.log(i);
+//     }, 1000);
+//   }
+//  console.log(i) // 0,1,2,3,4,5
+
+//   for (let i = 0; i < 6; i++) {
+//     setTimeout(() => {
+//       console.log(i);
+//     }, 1000);
+//   }
+//   console.log(i) // 6,6,6,6,6,6
+// //   Note: because var will change the value we know that..but in let variable it can not be changed..so that's why it's work like this.
+  
