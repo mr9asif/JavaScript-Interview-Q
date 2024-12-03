@@ -132,3 +132,15 @@
 //   console.log(i) // 6,6,6,6,6,6
 // //   Note: because var will change the value we know that..but in let variable it can not be changed..so that's why it's work like this.
   
+// -------
+// const str = "my name is asif";
+
+// const arr = str.split(" "); 
+// console.log(arr); // ["my", "name", "is", "asif"]
+
+// const n=arr.map(word=>{
+//    return word.charAt(0).toUpperCase()+word.slice(1);
+// }).join(" ")
+// console.log(n); // My Name Is Asif
+
+// // here first split and take them in a array of string. then do that in map then every single word first char do uppercase tehn slice and ignore first letter then add the word then add the senternce;
