@@ -103,4 +103,15 @@
 // const newArr= arr.map(e=> e > 3);
 // console.log(newArr)  // [false, false, true]`
 
-// Note: here we will get bolean value not the value we have becasue here we check condition.
+// Note: here we will get bolean value not the value we have becasue here we check condition.4
+
+// const obj = {
+//     a:"2",
+//     b:"3",
+//     a:"4",
+//     "b":"1",
+// }
+// console.log(obj) // {a:'4', b:'1'}
+// Note: object only get the latest property if the property is same
+
+// console.log(!"hey") // false
