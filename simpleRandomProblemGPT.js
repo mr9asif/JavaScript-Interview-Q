@@ -113,4 +113,18 @@
 //   console.log(firstUniqChar("loveleetcode")); // Output: 2
   
 
+//   Problem: Remove duplicates from a sorted array in-place.
+// function removeDuplicates(nums) {
+//     let index = 1;
+//     for (let i = 1; i < nums.length; i++) {
+//       if (nums[i] !== nums[i - 1]) {
+//         nums[index] = nums[i];
+//         index++;
+//       }
+//     }
+//     return index;
+//   }
+//   console.log(removeDuplicates([1, 1, 2])); // Output: 2
   
+
+
