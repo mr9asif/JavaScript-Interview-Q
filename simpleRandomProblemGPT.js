@@ -151,4 +151,13 @@
 // console.log([1, 2] == [1, 2]);  // Output: false (Different references)
 // console.log([1, 2] === [1, 2]); // Output: false
 
+// console.log(typeof NaN); // Output: "number" (NaN is a special numeric value)
 
+// function regular() {
+//     console.log(this); // `this` depends on the calling context.
+//   }
+  
+//   const arrow = () => {
+//     console.log(this); // `this` is lexically bound to the surrounding scope.
+//   };
+  
