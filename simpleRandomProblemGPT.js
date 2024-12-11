@@ -25,3 +25,19 @@
 //   }
 //   console.log(threeSum([-1, 0, 1, 2, -1, -4])); // Output: [[-1, -1, 2], [-1, 0, 1]]
   
+
+// Problem: Find two lines in an array that together hold the most water.
+
+// function maxArea(height) {
+//     let max = 0, left = 0, right = height.length - 1;
+  
+//     while (left < right) {
+//       const area = Math.min(height[left], height[right]) * (right - left);
+//       max = Math.max(max, area);
+//       if (height[left] < height[right]) left++;
+//       else right--;
+//     }
+//     return max;
+//   }
+//   console.log(maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7])); // Output: 49
+  
