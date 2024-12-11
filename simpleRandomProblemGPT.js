@@ -172,3 +172,23 @@
 // console.log(typeof undefined);   // Output: "undefined"
 // console.log(typeof []);          // Output: "object" (Arrays are objects)
 // console.log(typeof (() => {}));  // Output: "function"
+
+// const obj = { a: 1, b: 2 };
+// console.log(delete obj.a);  // Output: true (Property `a` is removed)
+// console.log(obj);           // Output: { b: 2 }
+// console.log(!!"hello");   // Output: true (Converts value to boolean)
+// console.log(!!0);         // Output: false
+// console.log(1 < 2 < 3);   // Output: true (1 < 2 is true, true < 3 is true)
+// console.log(3 > 2 > 1);   // Output: false (3 > 2 is true, true > 1 is false)
+// console.log([] == ![]);   // Output: true (Type coercion makes both sides equal)
+
+// for (var i = 0; i < 3; i++) {
+//     setTimeout(() => console.log(i), 1000);
+//   }
+//   // Output: 3, 3, 3 (Due to `var` being function-scoped)
+  
+//   for (let i = 0; i < 3; i++) {
+//     setTimeout(() => console.log(i), 1000);
+//   }
+  // Output: 0, 1, 2 (`let` is block-scoped)
+  
