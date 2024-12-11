@@ -126,5 +126,21 @@
 //   }
 //   console.log(removeDuplicates([1, 1, 2])); // Output: 2
   
+// Problem: Check if the input string contains valid parentheses.
+// function isValid(s) {
+//     const stack = [];
+//     const map = { ')': '(', '}': '{', ']': '[' };
+//     for (let char of s) {
+//       if (char in map) {
+//         if (stack.pop() !== map[char]) return false;
+//       } else {
+//         stack.push(char);
+//       }
+//     }
+//     return stack.length === 0;
+//   }
+//   console.log(isValid("()[]{}")); // Output: true
+//   console.log(isValid("(]")); // Output: false
+  
 
 
