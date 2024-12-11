@@ -41,3 +41,18 @@
 //   }
 //   console.log(maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7])); // Output: 49
   
+
+// Problem: Group anagrams together in an array of strings.
+// function groupAnagrams(strs) {
+//     const map = new Map();
+  
+//     for (let str of strs) {
+//       const key = str.split('').sort().join('');
+//       if (!map.has(key)) map.set(key, []);
+//       map.get(key).push(str);
+//     }
+//     return Array.from(map.values());
+//   }
+//   console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
+//   // Output: [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]]
+  
