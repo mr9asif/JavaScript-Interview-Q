@@ -77,3 +77,17 @@
 //   }
 //   console.log(searchRange([5, 7, 7, 8, 8, 10], 8)); // Output: [3, 4]
   
+// Problem: Given a matrix, return its elements in spiral order.
+// function spiralOrder(matrix) {
+//     const result = [];
+//     while (matrix.length) {
+//       result.push(...matrix.shift());
+//       matrix = matrix[0] ? matrix[0].map((_, i) => matrix.map(row => row[i]).reverse()) : [];
+//     }
+//     return result;
+//   }
+//   console.log(spiralOrder([[1, 2, 3], [4, 5, 6], [7, 8, 9]]));
+//   // Output: [1, 2, 3, 6, 9, 8, 7, 4, 5]
+
+
+  
