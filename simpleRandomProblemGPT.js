@@ -161,3 +161,14 @@
 //     console.log(this); // `this` is lexically bound to the surrounding scope.
 //   };
   
+// console.log([] + []);      // Output: "" (Empty string)
+// console.log([] + {});      // Output: "[object Object]"
+// console.log({} + []);      // Output: 0 (Due to ambiguous grammar)
+
+// null: A value explicitly set to indicate "no value."
+// undefined: A variable or property that hasn’t been assigned a value.
+
+// console.log(typeof null);        // Output: "object" (Historical bug in JavaScript)
+// console.log(typeof undefined);   // Output: "undefined"
+// console.log(typeof []);          // Output: "object" (Arrays are objects)
+// console.log(typeof (() => {}));  // Output: "function"
