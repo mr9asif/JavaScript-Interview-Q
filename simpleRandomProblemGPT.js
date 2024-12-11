@@ -148,4 +148,7 @@
 // console.log(null == undefined);  // Output: true
 // console.log(null === undefined); // Output: false
 
+// console.log([1, 2] == [1, 2]);  // Output: false (Different references)
+// console.log([1, 2] === [1, 2]); // Output: false
+
 
