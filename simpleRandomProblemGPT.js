@@ -192,3 +192,24 @@
 //   }
   // Output: 0, 1, 2 (`let` is block-scoped)
   
+//   const obj = { a: 1, b: 2 };
+// for (const key in obj) {
+//   console.log(key); // Output: "a", "b"
+// }
+
+// const arr = [1, 2, 3];
+// for (const key in arr) {
+//   console.log(key); // Output: "0", "1", "2"
+// }
+
+// const obj = {
+//     method() {
+//       console.log(this);
+//     }
+//   };
+//   obj.method();   // Output: obj
+  
+//   const method = obj.method;
+//   method();       // Output: undefined (in strict mode)
+
+  
