@@ -143,4 +143,9 @@
 //   console.log(isValid("(]")); // Output: false
   
 
+// console.log(null == null);   // Output: true
+// console.log(null === null);  // Output: true
+// console.log(null == undefined);  // Output: true
+// console.log(null === undefined); // Output: false
+
 
