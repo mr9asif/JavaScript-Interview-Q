@@ -63,3 +63,9 @@
 // What is an immediately invoked function expression (IIFE)?
 // Answer: An IIFE is a function that is defined and invoked immediately after its creation, often used to create a local scope.
 
+
+// What is destructuring in JavaScript?
+// Answer: Destructuring allows you to unpack values from arrays or objects into distinct variables.
+
+// What is the difference between forEach() and map()?
+// Answer: forEach() loops through an array but does not return a value, while map() creates a new array by transforming each element.
