@@ -44,3 +44,9 @@
 
 // What is a callback function in JavaScript?
 // Answer: A callback function is a function passed as an argument to another function, which is then invoked inside that function.
+
+// What does the this keyword refer to in JavaScript?
+// Answer: The this keyword refers to the object it belongs to, or the context in which the function is called.
+
+// What is the purpose of the bind() method in JavaScript?
+// Answer: The bind() method creates a new function that, when called, has its this keyword set to the provided value.
