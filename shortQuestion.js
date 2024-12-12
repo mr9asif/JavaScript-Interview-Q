@@ -59,3 +59,7 @@
 
 // What is the purpose of the Array.prototype.map() method?
 // Answer: The map() method creates a new array by applying a provided function to each element in the original array.
+
+// What is an immediately invoked function expression (IIFE)?
+// Answer: An IIFE is a function that is defined and invoked immediately after its creation, often used to create a local scope.
+
