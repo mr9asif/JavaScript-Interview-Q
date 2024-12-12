@@ -56,3 +56,6 @@
 
 // What is the difference between null and undefined?
 // Answer: null is an intentional assignment of "no value," while undefined means a variable has been declared but not assigned a value.
+
+// What is the purpose of the Array.prototype.map() method?
+// Answer: The map() method creates a new array by applying a provided function to each element in the original array.
