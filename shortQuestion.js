@@ -11,3 +11,7 @@
 //   counter(); // 1
 //   counter(); // 2
   
+
+// What is the event loop in JavaScript?
+// Answer:
+// The event loop is a mechanism that allows JavaScript to perform non-blocking asynchronous operations. It continually checks the call stack and the callback queue. If the call stack is empty, the event loop moves the first callback from the queue to the stack for execution.
