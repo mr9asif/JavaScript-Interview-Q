@@ -32,3 +32,8 @@
 //   myPromise.then(response => console.log(response)).catch(error => console.log(error));
   
 
+// What is the difference between var, let, and const in JavaScript?
+// Answer:
+// var: Function-scoped, can be redeclared and updated.
+// let: Block-scoped, can be updated but not redeclared in the same scope.
+// const: Block-scoped, cannot be updated or redeclared; the value is immutable (though objects and arrays assigned to const can be modified).
