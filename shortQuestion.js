@@ -15,3 +15,20 @@
 // What is the event loop in JavaScript?
 // Answer:
 // The event loop is a mechanism that allows JavaScript to perform non-blocking asynchronous operations. It continually checks the call stack and the callback queue. If the call stack is empty, the event loop moves the first callback from the queue to the stack for execution.
+
+
+// What are promises in JavaScript?
+// Answer:
+// A promise is an object that represents the eventual completion (or failure) of an asynchronous operation. It can be in one of three states: pending, fulfilled, or rejected. You can use .then() for handling success and .catch() for handling errors.
+
+// let myPromise = new Promise((resolve, reject) => {
+//     let success = true;
+//     if (success) {
+//       resolve("Task completed!");
+//     } else {
+//       reject("Task failed.");
+//     }
+//   });
+//   myPromise.then(response => console.log(response)).catch(error => console.log(error));
+  
+
