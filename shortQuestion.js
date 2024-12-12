@@ -37,3 +37,7 @@
 // var: Function-scoped, can be redeclared and updated.
 // let: Block-scoped, can be updated but not redeclared in the same scope.
 // const: Block-scoped, cannot be updated or redeclared; the value is immutable (though objects and arrays assigned to const can be modified).
+
+
+// What is NaN in JavaScript?
+// Answer: NaN stands for "Not-a-Number" and represents a value that is not a valid number.
