@@ -50,3 +50,9 @@
 
 // What is the purpose of the bind() method in JavaScript?
 // Answer: The bind() method creates a new function that, when called, has its this keyword set to the provided value.
+
+// What is hoisting in JavaScript?
+// Answer: Hoisting is JavaScript's default behavior of moving declarations (but not initializations) to the top of their scope during compilation.
+
+// What is the difference between null and undefined?
+// Answer: null is an intentional assignment of "no value," while undefined means a variable has been declared but not assigned a value.
