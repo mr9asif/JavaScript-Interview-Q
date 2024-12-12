@@ -41,3 +41,6 @@
 
 // What is NaN in JavaScript?
 // Answer: NaN stands for "Not-a-Number" and represents a value that is not a valid number.
+
+// What is a callback function in JavaScript?
+// Answer: A callback function is a function passed as an argument to another function, which is then invoked inside that function.
