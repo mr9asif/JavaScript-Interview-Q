@@ -166,3 +166,43 @@
 // };
 // console.log(obj) // {"1":"c", "2":"b"}
 // Note: Obj property or key always String or Symball. so if you give any number or array it will converted in a string. and if any key is double then it will get the last value;
+
+
+// ---------------use strict problem-----------------------
+
+// {
+//     {
+//         function fn(){
+//             console.log("hellow")
+//         }
+//     }
+// }
+// fn(); // hellow
+// Note: function is global scope so we can acces it from any where but if we use "use strict" then we can't because then it will use ES5
+
+
+// "use strict"
+// {
+//     {
+//         function fn(){
+//             console.log("hellow")
+//         }
+//     }
+// }
+// fn(); // fn not declire!
+
+// ------------------
+
+// function add(a,a){
+//     return a+a;
+// }
+// const sum= add(2,3);
+// console.log(sum) //6
+
+// "use strict"
+// function add(a,a){
+//     return a+a;
+// }
+// const sum= add(2,3);
+// console.log(sum) // Duplicate paramiter!
+
