@@ -206,3 +206,33 @@
 // const sum= add(2,3);
 // console.log(sum) // Duplicate paramiter!
 
+
+
+// var a=200;
+// let b=300;
+// c=400
+// console.log(a,b,c) // 200, 300, 400
+
+// "use strict"
+// var a=200;
+// let b=300;
+// c=400
+// console.log(a,b,c) // c is not define, Refference error!
+// Note: when we use strick then we can not access ES6 features, so global scope not work here.
+
+// -----------------
+// function fn(){
+//     console.log("hello")
+// }
+// var fn;
+// console.log(fn); // [Function: fn]
+// // Note: because we can not say same name of variable and function. 
+
+// function fn(){
+//     console.log("hello")
+// }
+// var fn;
+// console.log(fn()); // hello , undefine
+
+
+
