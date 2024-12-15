@@ -234,5 +234,28 @@
 // var fn;
 // console.log(fn()); // hello , undefine
 
+// --------------
+
+// class fn {
+    
+// }
+// console.log(typeof(fn)) // function
+
+// class fn {
+//     constructor() {
+//         console.log("Constructor called!");
+//     }
+// }
+
+// const instance = new fn(); // Correct usage
+// // Output: "Constructor called!"
 
 
+// Accumulator how works...
+
+// const arr=[2,3,4,5,5];
+// const sum= arr.reduce((el, acc)=>{
+//     return el+acc;
+
+// })
+// console.log(sum)
