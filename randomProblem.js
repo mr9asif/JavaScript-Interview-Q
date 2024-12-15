@@ -144,3 +144,25 @@
 // console.log(n); // My Name Is Asif
 
 // // here first split and take them in a array of string. then do that in map then every single word first char do uppercase tehn slice and ignore first letter then add the word then add the senternce;
+
+
+// const arr = [2,3,4][1];
+// console.log(arr) //3
+// const arr1 = [2,3,4][1,2];
+// console.log(arr1) // 4
+
+// const arr2 = [2,3,4][5];
+// console.log(arr2) // undefine
+
+// const arr3 = [2,3,4,5][1,2,3]; // only access 3 index last one work
+// console.log(arr3) //5
+// Note: here basically this is how we can access the value of array. but if we give multiple index in second array then we can only get last index value that we given
+
+// const obj ={
+//     1:"a",
+//     2:"b",
+//     "2":"b",
+//     [1]:"c",
+// };
+// console.log(obj) // {"1":"c", "2":"b"}
+// Note: Obj property or key always String or Symball. so if you give any number or array it will converted in a string. and if any key is double then it will get the last value;
