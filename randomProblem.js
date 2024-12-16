@@ -291,3 +291,32 @@
 // Since the first character is invalid, parseInt immediately returns NaN without further processing.
 // Output: NaN.
 
+// ------------------------
+
+// console.log([1,2].map((num)=>{
+//     if(num > 0) return;
+//     return num *2;
+// })) // [ undefined, undefined ]
+// // because here i didn't return anything if the condition is true, then it return undefine itself
+
+// console.log([1,2].map((num)=>{
+//     if(num > 0) return num;
+//     return num *2;
+// })) //  [1, 2]
+// // but here i return num . so map return a new array that's why it return [1,2];
+
+// console.log([1,2].forEach((num)=>{
+//     if(num > 0) return num;
+//     return num *2;
+// })) // undefine
+// becasue if forEach it does not return anything so that's why it's not effect. it's use for iterate
+
+// Transform values? Use map.
+// Filter values? Use filter.
+// Aggregate or compute a result? Use reduce.
+// Just iterate? Use forEach.
+
+
+
+
+
