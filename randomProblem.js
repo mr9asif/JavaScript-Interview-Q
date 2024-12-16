@@ -270,3 +270,24 @@
 
 // const arr = Array.from("asif");
 // console.log(arr); // Output: [ 'a', 's', 'i', 'f' ]
+
+// console.log(parseInt("10+2")); // Output: 10
+// console.log(parseInt("7FM")); // Output: 7
+// console.log(parseInt("FM7")); // Output: NaN
+
+// 1.parseInt("10+2")
+// Starts parsing from the first character:
+// "10" is a valid number, so it parses 10.
+// Encounters the + symbol, which is invalid in the middle of a number, so parsing stops.
+// Output: 10.
+// 2. parseInt("7FM")
+// Starts parsing from the first character:
+// "7" is a valid number, so it parses 7.
+// Encounters F, which is not a valid digit for a number, so parsing stops.
+// Output: 7.
+// 3. parseInt("FM7")
+// Starts parsing from the first character:
+// "F" is not a valid digit for a number.
+// Since the first character is invalid, parseInt immediately returns NaN without further processing.
+// Output: NaN.
+
