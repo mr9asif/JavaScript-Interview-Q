@@ -69,3 +69,5 @@
 
 // What is the difference between forEach() and map()?
 // Answer: forEach() loops through an array but does not return a value, while map() creates a new array by transforming each element.
+
+// console.log(typeof typeof 100)

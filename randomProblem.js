@@ -259,3 +259,14 @@
 
 // })
 // console.log(sum)
+
+
+// const arr =[1,2,3,4,5];
+// arr[100]=122;
+// console.log(arr) // [ 1, 2, 3, 4, 5, <95 empty items>, 122 ]
+
+// const arr=[..."asif"];
+// console.log(arr) // [ 'a', 's', 'i', 'f' ]
+
+// const arr = Array.from("asif");
+// console.log(arr); // Output: [ 'a', 's', 'i', 'f' ]
