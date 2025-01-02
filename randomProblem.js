@@ -351,5 +351,12 @@
 // console.log({} + []);
 // console.log({} + {});
 
-  
+// 4. Equality Check
+// What will these comparisons return?
+
+// console.log(0 == '0');
+// console.log(0 === '0');
+// console.log(null == undefined);
+// console.log(null === undefined);
+
 
