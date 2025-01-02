@@ -336,3 +336,11 @@
 //   test();
   
 
+// 2. Closures
+// What will the following code output and why?
+
+for (var i = 0; i < 3; i++) {
+    setTimeout(() => console.log(i), 1000);
+  }
+  
+
