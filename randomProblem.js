@@ -383,3 +383,15 @@
 //   [key]: 'world',
 // };
 // console.log(obj.hello);
+
+// 9. Prototype Chain
+// What will console.log(person.hasOwnProperty('name')) and console.log(person.name) return?
+
+// function Person(name) {
+//     this.name = name;
+//   }
+//   Person.prototype.getName = function () {
+//     return this.name;
+//   };
+//   const person = new Person('Alice');
+  
