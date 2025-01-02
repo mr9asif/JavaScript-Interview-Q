@@ -318,5 +318,21 @@
 
 
 
+// function abc(){
+//     return ;
+// }
+// console.log(abc()); // undefine
 
+
+
+// -------------------------
+// . Scope and Hoisting
+// What wil1l be logged to the console, and why?
+// function test() {
+//     console.log(a);
+//     var a = 10;
+//     console.log(a);
+//   }
+//   test();
+  
 
