@@ -339,8 +339,17 @@
 // 2. Closures
 // What will the following code output and why?
 
-for (var i = 0; i < 3; i++) {
-    setTimeout(() => console.log(i), 1000);
-  }
+// for (var i = 0; i < 3; i++) {
+//     setTimeout(() => console.log(i), 1000);
+//   }
+
+// 3. Type Coercion
+// What will be the result of the following expressions?
+
+// console.log([] + []);
+// console.log([] + {});
+// console.log({} + []);
+// console.log({} + {});
+
   
 
