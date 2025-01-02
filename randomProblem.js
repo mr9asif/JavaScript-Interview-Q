@@ -366,3 +366,11 @@
 // setTimeout(() => console.log('setTimeout'), 0);
 // Promise.resolve().then(() => console.log('promise'));
 // console.log('end');
+
+// 6. Object Behavior
+// What happens when you execute this code?
+
+// const obj = { a: 1, b: 2 };
+// Object.freeze(obj);
+// obj.a = 3;
+// console.log(obj);
