@@ -359,4 +359,10 @@
 // console.log(null == undefined);
 // console.log(null === undefined);
 
+// 5. Event Loop
+// What will be logged, and in what order?
 
+// console.log('start');
+// setTimeout(() => console.log('setTimeout'), 0);
+// Promise.resolve().then(() => console.log('promise'));
+// console.log('end');
