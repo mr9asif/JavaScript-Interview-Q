@@ -374,3 +374,12 @@
 // Object.freeze(obj);
 // obj.a = 3;
 // console.log(obj);
+
+// 7. Dynamic Property
+// What does this code log?
+
+// let key = 'hello';
+// const obj = {
+//   [key]: 'world',
+// };
+// console.log(obj.hello);
