@@ -412,6 +412,12 @@
 // console.log(null > 0);
 // console.log(null >= 0);
 
-
+// function greet(name = "Guest") {
+//     console.log("Hello, " + name);
+//   }
+//   greet();
+//   greet(undefined);
+//   greet(null);
+  
 
   
