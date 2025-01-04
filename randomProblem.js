@@ -394,4 +394,14 @@
 //     return this.name;
 //   };
 //   const person = new Person('Alice');
+
+// console.log(foo());
+// function foo() {
+//   return "Hello!";
+// }
+// console.log(bar());
+// var bar = function () {
+//   return "Hi!";
+// };
+
   
