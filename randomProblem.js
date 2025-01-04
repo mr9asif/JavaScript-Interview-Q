@@ -408,5 +408,10 @@
 // x = 10;
 // console.log(x);
 
+// console.log(null == 0);
+// console.log(null > 0);
+// console.log(null >= 0);
+
+
 
   
