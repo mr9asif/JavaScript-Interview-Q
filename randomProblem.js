@@ -437,6 +437,13 @@
 //   console.log(longestWord("JavaScript is fun")); // "JavaScript"
   
 
+// function countVowels(str) {
+//     // Your code here
+//   }
+  
+//   console.log(countVowels("hello world")); // 3
+//   console.log(countVowels("javascript")); // 3
+  
   
 
   
