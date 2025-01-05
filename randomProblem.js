@@ -429,6 +429,13 @@
 //   console.log(findMissingNumber([3, 0, 1])); // 2
 //   console.log(findMissingNumber([0, 1, 2, 3, 5])); // 4
   
+// function longestWord(str) {
+//     // Your code here
+//   }
+  
+//   console.log(longestWord("The quick brown fox jumped over the lazy dog")); // "jumped"
+//   console.log(longestWord("JavaScript is fun")); // "JavaScript"
+  
 
   
 
