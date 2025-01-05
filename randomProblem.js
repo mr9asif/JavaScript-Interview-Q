@@ -422,6 +422,14 @@
 // const { a = 10, b = 20 } = { a: 30 };
 // console.log(a, b);
 
+// function findMissingNumber(nums) {
+//     // Your code here
+//   }
+  
+//   console.log(findMissingNumber([3, 0, 1])); // 2
+//   console.log(findMissingNumber([0, 1, 2, 3, 5])); // 4
+  
+
   
 
   
