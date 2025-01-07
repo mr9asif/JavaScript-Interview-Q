@@ -33,3 +33,11 @@
 // npx eslint 
 
 // Convenient for One-Time Tools: Useful for running tools like create-react-app, webpack-cli, etc., without polluting the global namespace.
+
+
+//   what is js
+// what is variable
+// what is es6
+// what is clousure
+// what is function
+// how many type of function used is js
