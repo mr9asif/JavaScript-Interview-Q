@@ -41,3 +41,6 @@
 // what is clousure
 // what is function
 // how many type of function used is js
+
+// how to use Dom in js
+// whats the real dom
