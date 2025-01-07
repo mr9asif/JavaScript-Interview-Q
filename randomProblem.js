@@ -446,6 +446,8 @@
 
 //   what is js
 // what is variable
+// what is es6
+// what is clousure
   
 
   
