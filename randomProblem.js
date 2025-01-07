@@ -448,6 +448,8 @@
 // what is variable
 // what is es6
 // what is clousure
+// what is function
+// how many type of function used is js
   
 
   
