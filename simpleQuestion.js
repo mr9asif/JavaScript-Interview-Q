@@ -44,16 +44,3 @@
 
 // how to use Dom in js
 // whats the real dom
-
-// ldsklfkdfkdf
-// sdfldkfdl
-// ldsklfkdfkdf
-// sdfldkfdl
-// ldsklfkdfkdf
-// sdfldkfdl
-// ldsklfkdfkdf
-// sdfldkfdl
-// ldsklfkdfkdf
-// sdfldkfdl
-// ldsklfkdfkdf
-// sdfldkfdl
