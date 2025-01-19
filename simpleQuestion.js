@@ -44,25 +44,4 @@
 
 // how to use Dom in js
 // whats the real dom
-// dlkfldkflf
-// dflkdlfkl
-// dlkfldkflf
-// dflkdlfkl
-// dlkfldkflf
-// dflkdlfkl
-// dlkfldkflf
-// dflkdlfkl
-// dlkfldkflf
-// dflkdlfkl
-// dlkfldkflf
-// dflkdlfkl
-// dlkfldkflf
-// dflkdlfkl
-// dlkfldkflf
-// dflkdlfkl
-// dlkfldkflf
-// dflkdlfkl
-// dlkfldkflf
-// dflkdlfkl
-// dlkfldkflf
-// dflkdlfkl
+
