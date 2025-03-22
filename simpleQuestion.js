@@ -46,10 +46,6 @@
 // whats the real dom
 
 
-// dkfldkldf
-// dkfldkldf
-// dkfldkldf
-
 
 
 
