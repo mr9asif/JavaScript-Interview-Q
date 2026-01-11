@@ -143,7 +143,3 @@ num = 10;
 // Answer:
 // TypeError: Assignment to constant variable
 // You cannot reassign a const variable.
-// sdkflsdkflsdfsldfs
-// sflksdlfskfl
-// sdkfsldfs
-// skfsldkfsf
