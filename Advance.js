@@ -10,8 +10,23 @@ const person={
 // }
 
 // it good one
-const p = Object.keys(person);
-for(let el of p){
-    debugger
-    console.log(person[el]);
-}
+// const p = Object.keys(person);
+// for(let el of p){
+  
+//     console.log(person[el]);
+// }
+
+
+// forEach
+let fruites = ["banana", "apple", "orange"];
+
+fruites.forEach((x)=>{
+    console.log(x.toUpperCase());
+   
+})
+
+fruites.map((x)=>{
+    console.log(x.toUpperCase());
+    
+})
+// slkflsdflsdf
