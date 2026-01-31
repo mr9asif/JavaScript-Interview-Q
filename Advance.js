@@ -30,3 +30,4 @@ fruites.map((x)=>{
     
 })
 // slkflsdflsdf
+// sdfsdl
