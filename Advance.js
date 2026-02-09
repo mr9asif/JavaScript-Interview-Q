@@ -29,6 +29,3 @@ fruites.map((x)=>{
     console.log(x.toUpperCase());
     
 })
-
-// kfldskflsd
-// sdfsdfsd
