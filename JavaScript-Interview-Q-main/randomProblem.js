@@ -445,7 +445,6 @@
 //   console.log(countVowels("javascript")); // 3
 
 
-//   add new problem
-// js is required
+
 
   
