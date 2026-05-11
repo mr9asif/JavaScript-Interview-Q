@@ -445,6 +445,5 @@
 //   console.log(countVowels("javascript")); // 3
 
 
-// dkflsdkfsldf
 
   
